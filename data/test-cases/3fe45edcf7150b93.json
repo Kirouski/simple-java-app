@@ -1,11 +1,11 @@
 {
-  "uid" : "78d5ea21f665dd",
+  "uid" : "3fe45edcf7150b93",
   "name" : "shouldAnswerWithTrue",
   "fullName" : "org.example.AppTest.shouldAnswerWithTrue",
   "historyId" : "f8bf5306c371c0e573a2e0d85153a9a1",
   "time" : {
-    "start" : 1693087282642,
-    "stop" : 1693087282642,
+    "start" : 1693087306448,
+    "stop" : 1693087306448,
     "duration" : 0
   },
   "status" : "passed",
@@ -13,9 +13,9 @@
   "beforeStages" : [ {
     "name" : "initTest",
     "time" : {
-      "start" : 1693087282396,
-      "stop" : 1693087282403,
-      "duration" : 7
+      "start" : 1693087306240,
+      "stop" : 1693087306248,
+      "duration" : 8
     },
     "description" : "",
     "status" : "passed",
@@ -30,8 +30,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1693087282661,
-      "stop" : 1693087282661,
+      "start" : 1693087306481,
+      "stop" : 1693087306481,
       "duration" : 0
     },
     "description" : "",
@@ -64,10 +64,10 @@
     "value" : "org.example.AppTest"
   }, {
     "name" : "host",
-    "value" : "fv-az614-25"
+    "value" : "fv-az409-540"
   }, {
     "name" : "thread",
-    "value" : "1784@fv-az614-25.main(1)"
+    "value" : "1786@fv-az409-540.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "78d5ea21f665dd.json",
+  "source" : "3fe45edcf7150b93.json",
   "parameterValues" : [ ]
 }

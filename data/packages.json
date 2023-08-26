@@ -4,24 +4,24 @@
     "name" : "org.example.AppTest",
     "children" : [ {
       "name" : "shouldAnswerWithFalse",
-      "uid" : "c4f23e2e0d69ed63",
+      "uid" : "6cc0e260e5106d16",
       "parentUid" : "46356c94f853c43cc189eaaf947da54a",
       "status" : "passed",
       "time" : {
-        "start" : 1693087282509,
-        "stop" : 1693087282520,
-        "duration" : 11
+        "start" : 1693087306334,
+        "stop" : 1693087306340,
+        "duration" : 6
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "shouldAnswerWithTrue",
-      "uid" : "78d5ea21f665dd",
+      "uid" : "3fe45edcf7150b93",
       "parentUid" : "46356c94f853c43cc189eaaf947da54a",
       "status" : "passed",
       "time" : {
-        "start" : 1693087282642,
-        "stop" : 1693087282642,
+        "start" : 1693087306448,
+        "stop" : 1693087306448,
         "duration" : 0
       },
       "flaky" : false,
