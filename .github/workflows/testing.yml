@@ -13,5 +13,11 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
+      - name: check JAVA code
+        uses: dbelyaev/action-checkstyle@v0.8.4
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review
+          level: warning
       - name: Test application
         run: mvn clean test
