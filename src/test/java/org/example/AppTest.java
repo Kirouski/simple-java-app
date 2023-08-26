@@ -24,14 +24,9 @@ public class AppTest {
         assertFalse( false );
     }
 
-    @Test
-    public void shouldAnswerWithFalse2() {
-        assertFalse( false );
-    }
-
 
     @AfterClass
     public static void tearDown() {
-        System.out.println("tests is executed");
+        System.out.println("tests is executed !!!");
     }
 }
