@@ -1,29 +1,29 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "shouldAnswerWithFalse",
-    "uid" : "6cc0e260e5106d16",
+    "name" : "getUser",
+    "uid" : "8b963f95a205fb16",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1693087306334,
-      "stop" : 1693087306340,
-      "duration" : 6
+      "start" : 1693090420689,
+      "stop" : 1693090423843,
+      "duration" : 3154
     },
     "flaky" : false,
-    "parameters" : [ ]
+    "parameters" : [ "1" ]
   }, {
-    "name" : "shouldAnswerWithTrue",
-    "uid" : "3fe45edcf7150b93",
+    "name" : "getUser",
+    "uid" : "6b09db83ec6cfd60",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1693087306448,
-      "stop" : 1693087306448,
-      "duration" : 0
+      "start" : 1693090423930,
+      "stop" : 1693090424118,
+      "duration" : 188
     },
     "flaky" : false,
-    "parameters" : [ ]
+    "parameters" : [ "2" ]
   } ],
   "name" : "behaviors"
 }

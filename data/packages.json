@@ -1,33 +1,33 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "org.example.AppTest",
+    "name" : "org.example.api.RestTests",
     "children" : [ {
-      "name" : "shouldAnswerWithFalse",
-      "uid" : "6cc0e260e5106d16",
-      "parentUid" : "46356c94f853c43cc189eaaf947da54a",
+      "name" : "getUser",
+      "uid" : "8b963f95a205fb16",
+      "parentUid" : "c2a89ab49e95fa460d53f192665389b4",
       "status" : "passed",
       "time" : {
-        "start" : 1693087306334,
-        "stop" : 1693087306340,
-        "duration" : 6
+        "start" : 1693090420689,
+        "stop" : 1693090423843,
+        "duration" : 3154
       },
       "flaky" : false,
-      "parameters" : [ ]
+      "parameters" : [ "1" ]
     }, {
-      "name" : "shouldAnswerWithTrue",
-      "uid" : "3fe45edcf7150b93",
-      "parentUid" : "46356c94f853c43cc189eaaf947da54a",
+      "name" : "getUser",
+      "uid" : "6b09db83ec6cfd60",
+      "parentUid" : "c2a89ab49e95fa460d53f192665389b4",
       "status" : "passed",
       "time" : {
-        "start" : 1693087306448,
-        "stop" : 1693087306448,
-        "duration" : 0
+        "start" : 1693090423930,
+        "stop" : 1693090424118,
+        "duration" : 188
       },
       "flaky" : false,
-      "parameters" : [ ]
+      "parameters" : [ "2" ]
     } ],
-    "uid" : "org.example.AppTest"
+    "uid" : "org.example.api.RestTests"
   } ],
   "name" : "packages"
 }
