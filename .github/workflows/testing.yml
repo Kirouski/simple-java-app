@@ -15,7 +15,6 @@ jobs:
           cache: maven
       - name: Test application
         run: mvn clean test
-  name: reviewdog
 
   checkstyle:
     name: runner / checkstyle
