@@ -24,11 +24,6 @@ public class AppTest {
         assertFalse( false );
     }
 
-    @Test
-    public void shouldAnswerWithFalse2() {
-        assertFalse( false );
-    }
-
 
     @AfterClass
     public static void tearDown() {
