@@ -27,6 +27,6 @@ public class AppTest {
 
     @AfterClass
     public static void tearDown() {
-        System.out.println("tests is executed");
+        System.out.println("tests is executed !");
     }
 }
