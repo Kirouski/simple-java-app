@@ -1,9 +1,14 @@
 name: Test and save artifacts
 
 on: [ push, workflow_dispatch ]
+env:
+  GITHUB_LOGIN: login
+  GITHUB_PASSWORD: password
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Get repository code
         uses: actions/checkout@v3
@@ -22,6 +27,10 @@ jobs:
           cache: maven
       - name: Package
         run: mvn clean package
+      - name: Print creds
+        run: |
+          echo "login :  ${{env.GITHUB_LOGIN}}"
+          echo "password :  ${{env.GITHUB_PASSWORD}}"
       - name: Upload allure artifacts
         uses: actions/upload-artifact@v3
         with:
