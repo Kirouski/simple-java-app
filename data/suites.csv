@@ -1,3 +1,3 @@
 "Status","Name","Duration in ms","Description"
 "passed","org.example.AppTest.shouldAnswerWithTrue","0",""
-"passed","org.example.AppTest.shouldAnswerWithFalse","19",""
+"passed","org.example.AppTest.shouldAnswerWithFalse","10",""
