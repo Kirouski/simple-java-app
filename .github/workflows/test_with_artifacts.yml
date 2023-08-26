@@ -22,8 +22,17 @@ jobs:
           cache: maven
       - name: Package
         run: mvn clean package
-      - name: Upload artifact
+      - name: Upload allure artifacts
         uses: actions/upload-artifact@v3
         with:
           name: allure-artifact
           path: target/allure-results
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get allure results
+        uses: actions/download-artifact@v3
+          with:
+            name: allure-artifact
