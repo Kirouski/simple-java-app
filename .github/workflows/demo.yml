@@ -1,0 +1,10 @@
+name: Demo workflow from youtube
+
+on: workflow_dispatch (запуск в ручном режиме)
+jobs:
+  print_demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Hello GitHub Actions
+
