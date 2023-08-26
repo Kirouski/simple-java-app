@@ -27,8 +27,8 @@ jobs:
     needs: test
     strategy:
       matrix:
-        java-version: [8, 11, 17]
-        os: [ubuntu-latest, windows-latest]
+        java-version: [8, 11]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Get repository code
