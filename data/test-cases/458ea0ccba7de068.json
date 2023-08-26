@@ -1,21 +1,21 @@
 {
-  "uid" : "ef51b1f8ad9f0639",
-  "name" : "shouldAnswerWithFalse",
-  "fullName" : "org.example.AppTest.shouldAnswerWithFalse",
-  "historyId" : "38faf69f9b43486c0a782a84a8abbf27",
+  "uid" : "458ea0ccba7de068",
+  "name" : "shouldAnswerWithTrue",
+  "fullName" : "org.example.AppTest.shouldAnswerWithTrue",
+  "historyId" : "f8bf5306c371c0e573a2e0d85153a9a1",
   "time" : {
-    "start" : 1693086200750,
-    "stop" : 1693086200760,
-    "duration" : 10
+    "start" : 1693087263713,
+    "stop" : 1693087263713,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "initTest",
     "time" : {
-      "start" : 1693086200639,
-      "stop" : 1693086200646,
-      "duration" : 7
+      "start" : 1693087263453,
+      "stop" : 1693087263462,
+      "duration" : 9
     },
     "description" : "",
     "status" : "passed",
@@ -30,8 +30,8 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1693086200901,
-      "stop" : 1693086200901,
+      "start" : 1693087263732,
+      "stop" : 1693087263732,
       "duration" : 0
     },
     "description" : "",
@@ -52,7 +52,7 @@
     "value" : "org.example.AppTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldAnswerWithFalse"
+    "value" : "shouldAnswerWithTrue"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -64,10 +64,10 @@
     "value" : "org.example.AppTest"
   }, {
     "name" : "host",
-    "value" : "fv-az616-651"
+    "value" : "fv-az612-62"
   }, {
     "name" : "thread",
-    "value" : "1790@fv-az616-651.main(1)"
+    "value" : "1791@fv-az612-62.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -88,6 +88,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ef51b1f8ad9f0639.json",
+  "source" : "458ea0ccba7de068.json",
   "parameterValues" : [ ]
 }
